@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #000);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e0e0e0;
+}
+
+
+.container {
+  background: #111;
+  width: 360px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(0, 255, 170, 0.15);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ffaa;
+}
+
+.input-box {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00ffaa;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #aaa;
+}
+
+#strength {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.strength-bar {
+  height: 8px;
+  background: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#strength-fill {
+  height: 100%;
+  width: 0%;
+  background: red;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.checklist li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ff4d4d;
+}
+
+.checklist li.valid {
+  color: #00ffaa;
+}
+
+#resetBtn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background: #00ffaa;
+  color: black;
+}
+
+.attack-info {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.attack-info h4 {
+  color: #ffaa00;
+  margin-bottom: 8px;
+}
+
+.attack-info ul {
+  padding-left: 15px;
+}
+
+

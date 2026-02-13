@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Strength Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>🔐 Password Strength Analyzer</h2>
+
+  
+    <div class="input-box">
+      <input type="password" id="password" placeholder="Enter password">
+      <button id="togglePassword" type="button">👁️</button>
+
+    </div>
+
+    <p id="strength">Strength: </p>
+
+  
+    <div class="strength-bar">
+      <div id="strength-fill"></div>
+    </div>
+
+    <p id="guessRisk">Chance of password being guessed:</p>
+
+    <ul class="checklist">
+      <li id="length">❌ At least 10 characters</li>
+      <li id="uppercase">❌ One uppercase letter</li>
+      <li id="number">❌ One number</li>
+      <li id="special">❌ One special character</li>
+    </ul>
+
+    <div class="attack-info">
+  <h4>⚠ Why Strong Passwords Matter</h4>
+  <ul>
+    <li>Brute Force Attack – Tries every possible combination</li>
+    <li>Dictionary Attack – Uses common password lists</li>
+    <li>Credential Stuffing – Reuses leaked passwords</li>
+  </ul>
+</div>
+
+
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
