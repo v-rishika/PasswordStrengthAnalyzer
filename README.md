@@ -18,6 +18,8 @@ Updates results instantly as the user types.
 
 Technologies Used
 
-1.HTML
-2.CSS
-3.JavaScript.
+->HTML
+
+->CSS
+
+->JavaScript.
